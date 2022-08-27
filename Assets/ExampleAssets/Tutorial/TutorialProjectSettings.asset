@@ -15,12 +15,12 @@ MonoBehaviour:
   m_WelcomePage: {fileID: 11400000, guid: d7ed8cdd171b54fe39c58afde8ff5d51, type: 2}
   m_InitialScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
   m_InitialCameraSettings:
-    m_CameraMode: 0
+    m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
-    m_Size: 0
+    m_Size: 2.0600803
     m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_Rotation: {x: -0.5, y: 0, z: 0, w: -0.8660254}
     m_FrameObject:
       m_SceneGuid: 
       m_GameObjectGuid: 
@@ -29,7 +29,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_Enabled: 0
+    m_Enabled: 1
   m_RestoreDefaultAssetsOnTutorialReload: 0
   m_UseLegacyStartupBehavior: 0
   m_StartupTutorial: {fileID: 0}
