@@ -1,26 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AudioUI : MonoBehaviour
 {
-    private Slider volume;
-
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        volume = GetComponent<Slider>();
+        
     }
 
-    public void onMusicChange()
+    // Update is called once per frame
+    void Update()
     {
-        AudioManager.Instance.SetMusicVolume(volume.value);
-        Debug.Log(volume.value);
-    }
-
-    public void onSoundFXChange()
-    {
-        AudioManager.Instance.SetSFXVolume(volume.value);
-        Debug.Log(volume.value);
+        
     }
 }
