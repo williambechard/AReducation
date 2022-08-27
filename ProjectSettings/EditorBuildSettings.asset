@@ -17,9 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Global/SceneLoader.unity
     guid: 35ae0c7b76237462ba782accc040cc2a
-  - enabled: 0
-    path: Assets/Test.unity
-    guid: 63e5cb91a97844f1e8bf3b0028de86d3
+  - enabled: 1
+    path: Assets/Scenes/Global/GameManager.unity
+    guid: 728245d537d9342b992df39cb9de568c
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
