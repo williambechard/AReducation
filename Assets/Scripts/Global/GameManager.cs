@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject ShipHitPrefab;
+    
     public static GameManager Instance;
     public List<string> Fixes = new List<string>();
     //Events
