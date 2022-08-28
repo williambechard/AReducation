@@ -7,7 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceTrackedImages : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI text;
+    
     // Reference to AR tracked image manager component
     private ARTrackedImageManager _trackedImagesManager;
 
@@ -58,7 +58,7 @@ public class PlaceTrackedImages : MonoBehaviour
                 if (curPrefab.name == imageName
                     && !_instantiatedPrefabs.ContainsKey(imageName))
                 {
-                    text.text += "instantiate " + curPrefab.name;
+                    //text.text += "instantiate " + curPrefab.name;
                     // Instantiate the prefab, parenting it to the ARTrackedImage
                     var newPrefab = Instantiate(curPrefab);
                     newPrefab.transform.position = trackedImage.transform.position;
