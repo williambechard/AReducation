@@ -48,7 +48,7 @@ public class TrackMultiple : MonoBehaviour
             allObjects.Add(refLibrary[i].name, ObjectsToPlace[i]);
             ObjectsToPlace[i].SetActive(false);
         }
-        text.text += allObjects.length;
+        text.text += allObjects.Count;
     }
  
     void ActivateTrackedObject(string _imageName)
