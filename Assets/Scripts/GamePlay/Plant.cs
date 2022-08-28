@@ -20,13 +20,21 @@ public class Plant : MonoBehaviour
     public static event Action onWilt;
     public static event Action onBurn;
 
+
+
     public float growTick = 0;
     public float growTickTarget;
 
     // Start is called before the first frame update
     void Start()
     {
+        WaterCollision.onWater += Water;
         Clock.Tick += Tick;
+    }
+
+    void Water()
+    {
+        waterLevel++;
     }
 
     void Tick()
@@ -47,6 +55,7 @@ public class Plant : MonoBehaviour
     private void OnDisable()
     {
         Clock.Tick -= Tick;
+        WaterCollision.onWater -= Water;
     }
 
 
