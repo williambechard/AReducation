@@ -246,6 +246,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2046667964}
   m_RootOrder: 2
@@ -373,6 +374,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2046667964}
   m_RootOrder: 1
@@ -500,6 +502,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2046667964}
   m_RootOrder: 0
@@ -534,34 +537,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicClips:
-  - {fileID: 8300000, guid: d925e618a5f784bb5a05d03a745a9fe0, type: 3}
-  - {fileID: 8300000, guid: 01e229d4e3bbd41feb775c8680ad5e25, type: 3}
-  - {fileID: 8300000, guid: aa9db3c83040f40d9a7983155a4cfb53, type: 3}
-  - {fileID: 8300000, guid: d5be60750885d4d6ea1356a7b3e630fa, type: 3}
-  - {fileID: 8300000, guid: 321ee905f18f547608a275d913fc5b90, type: 3}
+  - {fileID: 8300000, guid: acd4d3753a7754e90a772541d92be272, type: 3}
+  - {fileID: 8300000, guid: 9153cc096e6f3463597455c6252266fd, type: 3}
   sfxClips:
-  - {fileID: 8300000, guid: 646242cb34e3f4bfeb9302bc196cd7b2, type: 3}
-  - {fileID: 8300000, guid: e38f1df9e23b14d13bbf293e84e1bec5, type: 3}
-  - {fileID: 8300000, guid: 6dae5f5ea7d9947078c21cf9592e3460, type: 3}
-  - {fileID: 8300000, guid: 7fa4a3156a4b94240a4e4eb75a4b7417, type: 3}
-  - {fileID: 8300000, guid: 60e2f335ed6ee4253af16a862d51c71d, type: 3}
-  - {fileID: 8300000, guid: 5b84f8a59b3634ae090980233e635812, type: 3}
-  - {fileID: 8300000, guid: c898cc54dbc4744b5936145216178a33, type: 3}
-  - {fileID: 8300000, guid: f119e1c944741430d8651430b2d57d2b, type: 3}
-  - {fileID: 8300000, guid: c776dfa1d208f4c1aa17290d918e4602, type: 3}
-  - {fileID: 8300000, guid: d0e5147c69de048af98336efc686df9a, type: 3}
-  - {fileID: 8300000, guid: c4008c9f207fc469a8a0ec7ce39c3965, type: 3}
-  - {fileID: 8300000, guid: ae61be73b12984dda9f0484b2b8264a6, type: 3}
-  - {fileID: 8300000, guid: 01f332ae4f01b4248851db907f029435, type: 3}
-  - {fileID: 8300000, guid: 4230a795cbe2f46368ff48cf3f61f6e4, type: 3}
-  - {fileID: 8300000, guid: e6c2f666a69624b94b3a4bdd5b54ea1f, type: 3}
-  - {fileID: 8300000, guid: be9287a609a3e44dfb47ef0f0690183e, type: 3}
-  - {fileID: 8300000, guid: 1f7698869b3cc4a9aa5df2271c4786e9, type: 3}
-  - {fileID: 8300000, guid: fe4b060648f05405d86f79dde892e6fa, type: 3}
-  - {fileID: 8300000, guid: 32e2a595a892f4c7f9f674008a182368, type: 3}
-  - {fileID: 8300000, guid: 78aee94f130664e569e769254a9719be, type: 3}
-  - {fileID: 8300000, guid: 9f4994d6b6c0644f2885240898ca12fa, type: 3}
-  - {fileID: 8300000, guid: ccd6bdf1161424a858a5165b8ff36578, type: 3}
+  - {fileID: 8300000, guid: 14e9e9b1db5414bb69cd2f96c79a044f, type: 3}
   backgroundClips:
   - {fileID: 8300000, guid: 747ba371e085e494fb1d987b78347a14, type: 3}
   musicSource: {fileID: 1917988080}
@@ -577,6 +556,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1917988081}
   - {fileID: 1785766470}

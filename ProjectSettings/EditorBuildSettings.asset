@@ -6,23 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu/MainMenu.unity
+    guid: 202cf5568ff6d4e5cabf382830adf1ef
+  - enabled: 1
     path: Assets/Scenes/AR/BlankAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Global/Global.unity
     guid: 6ec5255c10b414b1796c9b57eeab7d66
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Global/AudioManager.unity
     guid: c4c711bb48a174e338239bdef48eba11
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Global/SceneLoader.unity
     guid: 35ae0c7b76237462ba782accc040cc2a
   - enabled: 1
-    path: Assets/Scenes/Menu/OptionsMenu.unity
-    guid: 08a45d54701624df9829ac7baf29acd5
+    path: Assets/Scenes/UI/GameplayUI.unity
+    guid: 7c32ee7e8d40041a8b521f7f96cd325f
   - enabled: 1
-    path: Assets/Scenes/Menu/MainMenu.unity
-    guid: 202cf5568ff6d4e5cabf382830adf1ef
+    path: Assets/Scenes/Menu/OptionsMenu.unity
+    guid: bb309a9cb31354beaa1195039c39dd54
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

@@ -15,36 +15,14 @@ public class AudioManager : MonoBehaviour
     public Dictionary<string, int> backgroundClipsDict = new Dictionary<string, int>();
 
     void Setup() {
-        musicClipsDict.Add("Menu", 0);
-        musicClipsDict.Add("OnShip", 1);
-        musicClipsDict.Add("Failure", 3);
-        musicClipsDict.Add("OffShip", 4);
+        musicClipsDict.Add("MainMenu", 0);
+        musicClipsDict.Add("Game", 1);
+  
 
-        sfxClipsDict.Add("Alarm", 0);
-        sfxClipsDict.Add("ComputerSound", 1);
-        sfxClipsDict.Add("Explosion", 2);
-        sfxClipsDict.Add("Laser1", 3);
-        sfxClipsDict.Add("Laser3", 5);
-        sfxClipsDict.Add("Laser2", 4);
-        sfxClipsDict.Add("Laser4", 6);
-        sfxClipsDict.Add("UIHover", 6);
-        sfxClipsDict.Add("Walk", 7);
-        sfxClipsDict.Add("Walk2", 8);
-        sfxClipsDict.Add("DoorOpen", 9);
-        sfxClipsDict.Add("DoorClose", 10);
-        sfxClipsDict.Add("Interface", 11);
-        sfxClipsDict.Add("Blocked", 12);
-        sfxClipsDict.Add("Hit", 13);
-        sfxClipsDict.Add("ShipExplode", 14);
-        sfxClipsDict.Add("Shoot", 15);
-        sfxClipsDict.Add("Pickup", 16);
-        sfxClipsDict.Add("Wave", 17);
-        sfxClipsDict.Add("Roulette", 18);
-        sfxClipsDict.Add("Success", 19);
-        sfxClipsDict.Add("Fail", 20);
-        sfxClipsDict.Add("Locked", 21);
+        sfxClipsDict.Add("ButtonPress", 0);
+    
 
-        backgroundClipsDict.Add("ShipNoise", 0);
+        
 
         Debug.Log("AudioManager Setup" + musicClipsDict["Menu"] + " " + sfxClipsDict);
     }
