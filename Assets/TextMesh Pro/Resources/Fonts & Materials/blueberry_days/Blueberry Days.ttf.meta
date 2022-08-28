@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 247afb275c879481ab6fede5896aa666
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Blueberry Days
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6344f2cf3c2a34dd0b38feab23ad1fc0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
