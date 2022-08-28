@@ -2,36 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Bucket : MonoBehaviour
 {
     public GameObject targetObject;
     public bool isTipped = false;
     public float threshold;
+    public ParticleSystem WaterPourEffect;
+
     float rot;
+
+   
 
     // Start is called before the first frame update
     void Start()
     {
-         
+        WaterPourEffect.Stop();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        /*
-        rot = Quaternion.Angle(targetObject.transform.rotation, Quaternion.identity);
-        Debug.Log(rot);
-      
-        if ((rot > 45f))
+       
+        //true if not spilling
+        if (IsUpright())
         {
-            isTipped = true;
+            if (isTipped)
+            {
+                isTipped = false;
+                //turn off effect
+                WaterPourEffect.Stop();
+            }
+            
         }
         else
         {
-            isTipped = false;
+            if (!isTipped)
+            {
+                isTipped = true;
+                //turn on effect
+                WaterPourEffect.Play();
+            }
         }
-        */
-        Debug.Log(IsUpright());
 
     }
 
